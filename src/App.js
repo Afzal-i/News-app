@@ -10,7 +10,7 @@ const App =()=> {
   const pageSize = 10
   const apiKey=process.env.REACT_APP_NEWS_API
  
-    const [mode, setMode] = useState('light');
+    const [mode, setMode] = useState('light'); // enable dark mode.
     
     
     const removebodycls=()=>{
